@@ -1553,8 +1553,8 @@ MENU_GOLD_PAY: '§b§lМЕНЮ: §fС счета списано §a§l%s §fзо
 MENU_MONEY_PAY: '§b§lМЕНЮ: §fС счета списано §e§l%s§b⛂'
 
 #ALTERNATE
-CLEAR_INV: §b§lСЕРВЕР: §fВы §aочистили §fинвентарь
-CLEAR_INV_TO: §b§lСЕРВЕР: §fВы §aочистили §fинвентарь игроку §e%s
+CLEAR_INV: '§b§lСЕРВЕР: §fВы §aочистили §fинвентарь'
+CLEAR_INV_TO: '§b§lСЕРВЕР: §fВы §aочистили §fинвентарь игроку §e%s'
 PLAYER_LIST:
 - ''
 - §b§lСЕРВЕР:  §fНа режиме %s
@@ -1563,7 +1563,7 @@ PLAYER_LIST:
 - ' §a▪ §fДонатеры: %s'
 - ' §a▪ §fАдминистрация: %s'
 - ''
-BROADCAST_NO_ARGS: §b§lСЕРВЕР: §fИспользование - §a/bc сообщение
+BROADCAST_NO_ARGS: '§b§lСЕРВЕР: §fИспользование - §a/bc сообщение'
 BROADCAST_FORMAT: '§b§l%s §fпишет: §a%s'
 DAY_SET: §b§lСЕРВЕР: §fВы установили время §aдень
 NIGHT_SET: §b§lСЕРВЕР: §fВы установили время §aночь
