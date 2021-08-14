@@ -36,7 +36,7 @@ INFORMATION_SECURITY_LORE:
 - ' §7предусмотрена система безопасности, которая'
 - ' §7позволяет управлять аккаунтом через §9§lVK'
 - ''
-- ' §8▪ §fПривязать аккаунт в группе: §bvk.com/fixmine_ru'
+- ' §8▪ §fПривязать аккаунт в группе: §bvk.com/watergrief_ru'
 - ' §8▪ §fСменить пароль: §b/cp [старый_пароль] [новый_парароль]'
 INFORMATION_SKIN_NAME: '§b§lСкины'
 INFORMATION_SKIN_LORE:
@@ -61,10 +61,10 @@ INFORMATION_COMMUNICATION_LORE:
 INFORMATION_LINKS_NAME: '§9§lПолезные ссылки'
 INFORMATION_LINKS_LORE:
 - ''
-- ' §b∙ §fАдрес сервера: §bmc.FixMine.ru'
-- ' §a∙ §fСайт для покупки доната: §aFixMine.ru'
-- ' §d∙ §fДискорд сервера: §ddiscord.FixMine.ru'
-- ' §b∙ §fГруппа вконтакте: §bvk.com/fixmine_ru'
+- ' §b∙ §fАдрес сервера: §bmc.WaterGrief.ru'
+- ' §a∙ §fСайт для покупки доната: §aWaterGrief.ru'
+- ' §d∙ §fДискорд сервера: §ddiscord.WaterGrief.ru'
+- ' §b∙ §fГруппа вконтакте: §bvk.com/watergrief_ru'
 INFORMATION_CURRENCY_NAME: '§d§lВалюта'
 INFORMATION_CURRENCY_LORE:
 - ''
@@ -73,7 +73,7 @@ INFORMATION_CURRENCY_LORE:
 - ' §7внутриигровые покупки'
 - ''
 - ' §7Самая дорогая валюта - §bкрышки§7, их можно'
-- ' §7получить только купив на сайте: §bFixMine.ru'
+- ' §7получить только купив на сайте: §bWaterGrief.ru'
 - ''
 - ' §7Менее ценная валюта - §bзолото§7, ее'
 - ' §7можно добыть играя на сервере, повышая уровни'
@@ -232,7 +232,7 @@ AUTH_LOGIN_SUCCESS_NON_VK:
 - '§f'
 - ' §c§l⚠ Внимание! §fВы не привязали страницу §bВКонтакте§f к своему аккаунту'
 - ' Сделав это, вы сможете управлять аккаунтом и получать уведомления'
-- ' §aСделайте это прямо сейчас§f, написав в сообщения группы: §bvk.com/fixmine_ru'
+- ' §aСделайте это прямо сейчас§f, написав в сообщения группы: §bvk.com/watergrief_ru'
 - ' Команда - §b!аккаунт привязать [ник]'
 - '§f'
 AUTH_LOGIN_SUCCESS_WITH_VK: '§b§lАВТОРИЗАЦИЯ §8➼ §fАвторизация §aуспешно §fпройдена'
@@ -965,7 +965,7 @@ SKIN_REQUEST_EXCEPTION: '§b§lСКИНЫ §8➼ §fОшибка получен�
 SKIN_IS_DEFAULT: '§b§lСКИНЫ §8➼ §fВы пытаетесь установить стандартный скин, используйте §a/skin reset'
 SKIN_ALREADY_SET: '§b§lСКИНЫ §8➼ §fУ вас §aуже установлен §fданный скин'
 #ONEBLOCK
-ONEBLOCK_BOARD_NAME: ' §b§lFixMine §8» §b§lОдинБлок '
+ONEBLOCK_BOARD_NAME: ' §b§lＷａｔｅｒ§f§lＧｒｉｅｆ §8» §b§lОдинБлок '
 ONEBLOCK_BOARD_ISLAND_LINE: '   Фаза острова: §d'
 ONEBLOCK_BOARD_ACHIEVEMENTS_LINE: '   Достижения: '
 
@@ -1062,18 +1062,19 @@ SKYBLOCK_SHOP_LOOT: Магазин различных предметов
 SKYBLOCK_SHOP_CUSTOM: Магазин редких предметов
 
 #SURVIVAL
-SURVIVAL_BOARD_NAME: ' §b§lFixMine §8» §b§lВыживание '
-SURVIVAL_BOARD_DATE_LINE: '    §7'
-SURVIVAL_BOARD_GROUP_LINE: ' Группа: '
-SURVIVAL_BOARD_PROFILE_LINE: ' §b§lПрофиль:'
-SURVIVAL_BOARD_LEVEL_LINE: '   Уровень: §d'
-SURVIVAL_BOARD_COINS_LINE: '   Крышки: §b'
-SURVIVAL_BOARD_GOLD_LINE: '   Золото: §b'
-SURVIVAL_BOARD_MONEY_LINE: '   Монеты: §b'
-SURVIVAL_BOARD_STATS_LINE: '   У/С: §a'
-SURVIVAL_BOARD_BOOSTER_LINE: '   Бустер: §c'
-SURVIVAL_BOARD_LOCAL_ONLINE_LINE: ' Онлайн режима: §a'
-SURVIVAL_BOARD_SITE_LINE: '     §bwww.WaterGrief.ru'
+SURVIVAL_BOARD_NAME: ''
+SURVIVAL_BOARD_CRAFT_LINE: ''
+SURVIVAL_BOARD_DATE_LINE: ''
+SURVIVAL_BOARD_GROUP_LINE: ''
+SURVIVAL_BOARD_PROFILE_LINE: ''
+SURVIVAL_BOARD_LEVEL_LINE: ''
+SURVIVAL_BOARD_COINS_LINE: ''
+SURVIVAL_BOARD_GOLD_LINE: ''
+SURVIVAL_BOARD_MONEY_LINE: ''
+SURVIVAL_BOARD_STATS_LINE: ''
+SURVIVAL_BOARD_BOOSTER_LINE: ''
+SURVIVAL_BOARD_LOCAL_ONLINE_LINE: ''
+SURVIVAL_BOARD_SITE_LINE: ''
 
 SURVIVAL_MENU_ITEM_NAME: '§b§lГлавное меню §7(ПКМ)'
 SURVIVAL_MENU_ITEM_LORE:
@@ -1128,7 +1129,7 @@ JOBS_BOARD_STATS_LINE: ' §b§lСтатистика'
 MINER_TOP_HEADER: '§b§lТОП ШАХТЕРОВ'
 WOODCUTTER_TOP_HEADER: '§b§lТОП ЛЕСОРУБОВ'
 #LOBBY
-LOBBY_BOARD_NAME: '§b§lFixMine §8» §b§lХаб'
+LOBBY_BOARD_NAME: '§b§lＷａｔｅｒ§f§lＧｒｉｅｆ §8» §b§lХаб'
 LOBBY_BOARD_DATE_LINE: '    §7'
 LOBBY_BOARD_GROUP_LINE: ' Группа: '
 LOBBY_BOARD_PROFILE_LINE: ' §b§lПрофиль:'
@@ -1140,7 +1141,7 @@ LOBBY_BOARD_BOOSTER_LINE: ' Активный бустер: §c'
 LOBBY_BOARD_GLOBAL_ONLINE_LINE: ' Общий онлайн: §a'
 LOBBY_BOARD_SITE_LINE: '     §bwww.WaterGrief.ru'
 
-LOBBY_JOIN_TITLE: '§b§l◀ §b§lFix§f§lMine §b§l▶'
+LOBBY_JOIN_TITLE: '§b§l◀ §b§lＷａｔｅｒ§f§lＧｒｉｅｆ §b§l▶'
 LOBBY_JOIN_SUBTITLE: '§fВесеннее обновление!'
 
 PROFILE_ITEM_NAME: '§b§lПрофиль %s §7(ПКМ)'
@@ -1183,9 +1184,9 @@ PRESENTS_COMPLETE_TITLE: '§b§lПоздравляем!'
 PRESENTS_COMPLETE_SUBTITLE: '§fВы отыскали §aвсе §fновогодние подарки'
 BOSS_BAR_LOBBY:
 - '    §f§lВЕСЕННИЕ §c§lСКИДКИ! §f§lВСЕ ЦЕНЫ БЫЛИ §a§lСНИЖЕНЫ §f§lНА §b§l30%%'
-- '    §f§lПОКУПКА §b§lДОНАТА §f§lНА САЙТЕ §7► §b§lFIXMINE.RU'
-- '    §9§lDISCORD §f§lСЕРВЕРА §7► §d§lDISCORD.FIXMINE.RU'
-- '    §f§lГРУППА СЕРВЕРА §9§lВКОНТАКТЕ §7► §b§lVK.COM/FIXMINE_RU'
+- '    §f§lПОКУПКА §b§lДОНАТА §f§lНА САЙТЕ §7► §b§lWATERGRIEF.RU'
+- '    §9§lDISCORD §f§lСЕРВЕРА §7► §d§lDISCORD.WATERGRIEF.RU'
+- '    §f§lГРУППА СЕРВЕРА §9§lВКОНТАКТЕ §7► §b§lVK.COM/WATERGRIEF_RU'
 HOLOGRAM_LEVEL_TOP_LINES:
 - '§8§l« §d§lТоп по уровням §8§l»'
 - '§fСамые прокаченные игроки'
